@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/020bdbe37e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images\logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">service</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi,<span> I'm UI/UX designer</span> <br> From Bangalore </h1>
+        </div>
+    </div>
+
+ </div>
+ 
+
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1"><img src="images/user.png"></div>
+            <div class="about-col-2"><h1 class="sub-title"> About Me </h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and
+                     typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 
+                     the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                     It has survived not only five centuries, but also the leap into electronic typesetting, 
+                     remaining essentially unchanged.
+                      It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
+                      more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+               
+            <div class="tab-titles"  >
+                <p class="tab-links active-link" onlick="opentab('skills')">skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links"  onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                    <li><span>Web Development</span><br>web/App development</li>
+                    <li><span>Business Analyst</span><br>analysis on statistics</li>
+                    
+                    
+        
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2021-current</span><br>UI/UX design training at AB Institute</li>
+                    <li><span>2017-2020</span><br>HR at startup</li>
+                    <li><span>2015-2016</span><br>Internship at elearn</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2015</span><br>UI/UX at bangalore</li>
+                    <li><span>2016</span><br>business analyst at bangalore</li>
+                    <li><span>2019</span><br>MBA at canada</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+   
+
+
+
+  <!---------services--------->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+<div>
+    <i class="fa-solid fa-code"></i>
+    <h2>Web Design</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam,
+         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="#">learn more</a>
+        </div>
+        <div>
+            <i class="fa-brands fa-figma"></i>
+            <h2>UI/UX</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-line"></i>
+                    <h2>Business Analyst</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Ut enim ad minim veniam,
+                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <a href="#">learn more</a>
+                        </div>
+</div>
+    </div>
+ </div>
+
+
+ <!----portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+            <div class="layer" >
+                
+                <h3>social media app</h3>
+                <p>the app connects by <br>social media websites</p>
+                <a href="#"><i class="fa-solid fa-globe"></i></a>
+            </div> 
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer" >
+                    <h3>music app</h3>
+                    <p>the app connects by<br> social media websites</p>
+                    <a href="#"><i class="fa-solid fa-music"></i></a>
+            </div></div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer" >
+                    <h3>online shopping</h3>
+                    <p>the app connects by<br> social media websites</p>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div></div>
+
+<!---contact----->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-solid fa-envelope"></i> contact@123.com</p>
+                <p><i class="fa-solid fa-phone"></i>5634261236</p>
+                <div class="socialmedia">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <a href="images/downloadcv.pdf" download  class="btn btn2">Download CV</a> 
+
+            </div>
+            <div class="contact-right">
+                <form>
+                  <input type="text"name="Name"placeholder="Name Here" required>
+                  <input type="email" name="email"placeholder="Email Here" required>
+                  <textarea name="Message" rows="6" placeholder="message here" ></textarea>
+                  <button class="btn btn2">submit</button>
+                </form>
+                
+            </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>
+           copyright <i class="fa-regular fa-copyright"></i>
+            UI/UX Designer
+        </p>
+    </div>
+</div>
+
+
+
+
+<script >
+     var tablinks= document.getElementsByClassName("tab-links");
+     var tabcontents= document.getElementsByClassName("tab-contents");
+     function opentab (tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+     }
+
+</script>
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+ </script>
+
+
+
+</body>
+</html>
